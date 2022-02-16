@@ -19,7 +19,7 @@ function rndNumberArr(min, max) {
     }
     return li.sort((a,b)=>a-b);
 }
-console.log(rndNumberArr(1, 90));
+// console.log(rndNumberArr(1, 90));
 
 function joker() {
     let numbers = rndNumberArr(1, 90);
@@ -37,7 +37,7 @@ function joker() {
     numbers.push(superstar);
     return numbers;
 }
-console.log(joker());
+// console.log(joker());
 
 button.addEventListener("click",()=>{
 
